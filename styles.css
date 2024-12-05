@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  #bebee9;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+  
+  header {
+    background:#7c7cf6;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  header h1 {
+    margin: 5px 0; 
+  }
+  
+  header p {
+    margin: 3px 0; 
+  }  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    background: #e8f5e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #4caf50;
+    border-radius: 5px;
+  }
+  
+  input, button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #7c7cf6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6666eb;
+  }
+  
+  #timer-settings {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1px;
+    background-color:#7c7cf6;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
